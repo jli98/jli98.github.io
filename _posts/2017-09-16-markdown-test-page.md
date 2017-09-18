@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Markdown Test Page"
-tags: tag1 tag3
+tags: 编程 linux 闲聊
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)
