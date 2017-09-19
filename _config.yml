@@ -1,25 +1,37 @@
-permalink: /:year:month:day/:title
-url: #Your url here
-baseurl: 
+# Site settings
+title: Juncheng's Blog
+url: 
+baseurl:
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
 
-# variables
-name: Juncheng' Blog
-description: Record every little thing.
-google_verification: null
+# Your information
+email: smell_smelly@163.com
+author: Juncheng Li
+avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+profile: 
+#twitter_username: twitter_username
+#github_username:  github_username
 
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
 
-# Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
+# Build settings
+paginate: 5
+paginate_path: "page:num"
 
-# Markdown
+highlighter: rouge
 markdown: kramdown
+
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    disable : true
+  syntax_highlighter: rouge
