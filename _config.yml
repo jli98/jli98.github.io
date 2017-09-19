@@ -1,10 +1,9 @@
 # Site settings
 title: Juncheng's Blog
-url: 
+url: "http://jli98.github.io"
 baseurl:
 #timezone: Asia/Chongqing
-description: >
-  One or more sentences introducing this blog.
+description: One or more sentences introducing this blog.
 
 # Your information
 email: smell_smelly@163.com
