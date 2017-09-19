@@ -37,7 +37,7 @@ Markdown中有两种方式，实现链接，分别为内联方式和引用方式
  This is an [example link](http://example.com/). 
 ```
 引用方式：
-```
+```markdown
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
 
 [1]: http://google.com/        "Google" 
@@ -50,11 +50,11 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 图片的处理方式和链接的处理方式，非常的类似。
 
 内联方式：
-```
+```markdown
 ![alt text](/path/to/img.jpg "Title")
 ```
 引用方式：
-```
+```markdown
 ![alt text][id]
 
 [id]: /path/to/img.jpg "Title"
@@ -63,14 +63,14 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 ## 9. 代码（HTML中所谓的Code）
 实现方式有两种：
 第一种：简单文字出现一个代码框。使用
-```
+```markdown
     `<blockquote>`。（`不是单引号而是左上角的ESC下面~中的`）
 ```
 第二种：大片文字需要实现代码框。使用Tab和四个空格。
 
 ## 10. 脚注（footnote）
 实现方式如下：
-```
+```markdown
 hello[^hello]
 
 
