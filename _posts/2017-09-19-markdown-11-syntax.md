@@ -33,7 +33,7 @@ permalink: /archivers/markdown-11-syntax
 Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
 
 内联方式：
-    This is an [example link](http://example.com/). 
+`This is an [example link](http://example.com/).` 
 引用方式：
 ```
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
