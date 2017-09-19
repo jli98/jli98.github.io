@@ -3,12 +3,12 @@ title: Juncheng's Blog
 url: "http://jli98.github.io"
 baseurl:
 #timezone: Asia/Chongqing
-description: One or more sentences introducing this blog.
+description: 这就是我写点东西的地方啦。
 
 # Your information
 email: smell_smelly@163.com
 author: Juncheng Li
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: "/images/avatar.jpeg"
 profile: 
 #twitter_username: twitter_username
 #github_username:  github_username
